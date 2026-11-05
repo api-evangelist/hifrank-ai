@@ -64,5 +64,130 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Frank is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://www.hifrank.ai
+Frank is an AI‑powered customer research platform that runs hundreds of moderated interviews overnight, delivering deep insights within 24 hours at up to 50× lower cost than traditional methods. Trusted by over 1,000 brands, it helps product, growth and research teams uncover customer needs at scale.
+
+**Areas:** AI · CustomerResearch · InterviewAutomation · MarketInsights · SaaS
+
+## Frank on APIs.io
+
+Everything profiled for Frank is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/hifrank-ai/](https://apis.io/providers/hifrank-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Frank Public API](https://apis.io/apis/hifrank-ai/frank-public-api/) — Public API for Frank customer research platform, documented in the developer guide.
+- [Frank API](https://apis.io/apis/hifrank-ai/hifrank-ai-api/) — Frank API as documented publicly: 15 operations. Contract generated from the documentation by API Evangelist (2026-11-05); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Hifrank Ai Webhooks](https://apis.io/asyncapis/hifrank-ai/hifrank-ai-webhooks/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetV1InterviewsIdResponse](https://apis.io/schemas/hifrank-ai/hifrank-ai-get-v1-interviews-id-response/)
+- [GetV1ProductsIdResponse](https://apis.io/schemas/hifrank-ai/hifrank-ai-get-v1-products-id-response/)
+- [GetV1ResearchesResearchidEmbedsTypeResponse](https://apis.io/schemas/hifrank-ai/hifrank-ai-get-v1-researches-researchid-embeds-type-response/)
+- [GetV1ResearchesResearchidInterviewsResponse](https://apis.io/schemas/hifrank-ai/hifrank-ai-get-v1-researches-researchid-interviews-response/)
+- [PostV1ResearchesRequest](https://apis.io/schemas/hifrank-ai/hifrank-ai-post-v1-researches-request/)
+- [PutV1ProductsIdResponse](https://apis.io/schemas/hifrank-ai/hifrank-ai-put-v1-products-id-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Hifrank Ai Context](https://apis.io/jsonld/hifrank-ai/hifrank-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Frank API Rules](https://apis.io/rules/hifrank-ai/hifrank-ai-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Hifrank Ai Authentication](https://apis.io/security/hifrank-ai/hifrank-ai-authentication/)
+- [Hifrank Ai Domain Security](https://apis.io/security/hifrank-ai/hifrank-ai-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Hifrank Ai Plans Pricing](https://apis.io/plans/hifrank-ai/hifrank-ai-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.hifrank.ai)
+- [Documentation](https://www.hifrank.ai/mcp)
+- [Getting started](https://www.hifrank.ai/docs/set-up-the-frank-webhook)
+- [API reference](https://www.hifrank.ai/docs)
+- [Pricing](https://www.hifrank.ai/pricing)
+- [Blog](https://www.hifrank.ai/blog)
+- [Terms of service](https://www.hifrank.ai/terms-of-service)
+- [Privacy policy](https://www.hifrank.ai/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 53.7** — developing · rubric 0.27.0 · scored 2026-11-05
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 63.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 52.4 |
+| Access clarity | 50.5 |
+
+**Agent readiness 41.0** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/hifrank-ai/](https://apis.io/providers/hifrank-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Frank: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/hifrank-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
