@@ -1,0 +1,27 @@
+aid: hifrank-ai
+name: Frank
+description: 'Frank is a company surfaced via the API Evangelist harvest backlog (source: new-submission)
+  and added to the network as a stub for full-pipeline profiling.'
+url: https://artifacts.apis.io/hifrank-ai/apis.yml
+x-type: company
+x-source: harvest:new-submission
+x-tier: stub
+x-tier-reason: harvest
+specificationVersion: '0.20'
+created: '2026-11-05'
+modified: '2026-11-05'
+tags:
+- Company
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://www.hifrank.ai
+- type: Documentation
+  url: https://www.hifrank.ai/mcp
+x-submission-notes: MCP server for customer interviews
+x-submitted-by: support@hifrank.ai (apisio-add-form, 2026-11-04)
